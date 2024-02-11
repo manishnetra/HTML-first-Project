@@ -13,9 +13,10 @@
     
     <main>
         <section>
-<PRE><p>FIRST NAME     <input type="text" > (max 25 charcters a-z and A-Z)</p></PRE>
-<pre><p>LAST NAME      <input type="text" > (max 25 charcters a-z and A-Z)</p></pre>
-<pre><p>DATE OF BIRTH   <select name="Day"  placeholder="Day">
+<PRE><p>FIRST NAME       <input type="text" > (max 25 charcters a-z and A-Z)</p></PRE>
+<pre><p>LAST NAME        <input type="text" > (max 25 charcters a-z and A-Z)</p></pre>
+<pre><p>DATE OF BIRTH   <label for="Day-select"></label> <select name="Day" id="Day-select">
+    <option value="">--Day--</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -47,7 +48,8 @@
         <option value="29">29</option>
         <option value="30">30</option>
         <option value="31">31</option>
-    </select>  <select name="month" placeholder="month" >
+    </select> <label for="Month-select"></label> <select name="month" id="Month-select" >
+        <option value="">--Month--</option>
         <option value="Jan">Jan</option>
         <option value="Feb">Feb</option>
         <option value="Mar">Mar</option>
@@ -60,7 +62,8 @@
         <option value="Oct">Oct</option>
         <option value="Nov">Nov</option>
         <option value="Dec">Dec</option>
-</select>  <select name="year" placeholder="year">
+</select> <label for="year"></label> <select name="year" id="year">
+        <option value="">--Year--</option>
         <option value="2024">2024</option>
         <option value="2023">2023</option>
         <option value="2022">2022</option>
@@ -78,14 +81,21 @@
         <option value="2010">2010</option>
         <option value="2009">2009</option>
         <option value="2008">2008</option></select> 
-<pre><p>Email ID       <input type="text"></p></pre>
-<pre><p>MOBILE NUMBER  <input type="number"> (10 digit number)</p></pre>
-</p></pre>
-        </section>
-    
-        <br><br>
-        <article>
+<pre><p>Email ID         <input type="email"></p></pre><pre><p>MOBILE NUMBER    <input type="number"> (10 digit number)</p></pre></p></pre>
+<p><pre>GENDER           <label for id="100"> Male<input type="radio" value="Male" Name="Gender" id="100"></label> <label for id="101"> Female<input type="radio" value="Female" Name="Gender" id="101">
+</label></section></pre></p>
 
+        <article>
+<P><PRE>ADDRESS          <TEXTAREA NAME="ADDRESS" PLACEHOLDER="WRITE YOUR ADDRESS HERE" ROW="4"></TEXTAREA></PRE></P>
+<P><PRE>CITY             <INPUT TYPE="text"> (max 25 charcters a-z and A-Z)</PRE></P><p><pre>PIN CODE         <input type="number" > (6 digit number)<p><pre>STATE            <input type="" name="text"> (max 25 charcters a-z and A-Z)  </pre></p></pre></p><p><pre>Country        <label for="Country"></label>  <select name="country" id="Country">
+    <option value="">--Country--</option>
+    <option value="india">India</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+</select></pre></p>
+<p><pre>HOBBIES         <label for="100"><input type="checkbox" value="drawing" name="Hobbies" id="100">Drawing</label><label for="101"><input type="checkbox" name="Hobbies" value="Singing" id="101">Singing</label> <label for="103"><input type="checkbox" name="Hobbies" value="dancing" id="103">Dancing</label> <label for="104"><input type="checkbox" name="Hobbies" value="sketching" id="104">Sketching</label>  <label for="105"><input type="checkbox" name="Hobbies" value="Ohters" id="105">Others</label> <input placeholder="Write the others hobbies"></pre></p>
+
+<p><pre>QUALIFICATION </pre></p>
         </article>
         <br><br>
         <aside>
